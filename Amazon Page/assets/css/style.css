@@ -1,0 +1,188 @@
+* {
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+
+body {
+	background-color: #e9edee;
+}
+
+body h1 {
+	color: #e9edee;
+	font-size: 2.5em;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+/* Header */
+
+.logo {
+	background-color: #222f3f; /* Your styles here */
+	height: 10vh;
+}
+
+.logo img {
+	width: 136px;
+	margin: 27px;
+	cursor: pointer;
+}
+/* Menu */
+
+.menu {
+	background-color: #364759;
+	height: 5vh;
+}
+
+.menu ul {
+	padding-top: 14px;
+	padding-left: 15px;
+}
+
+.menu li {
+	text-align: left;
+	display: inline;
+	padding: 5px;
+	font-size: 1em;
+}
+
+.menu li a {
+	color: #dbe4eb;
+	text-decoration: none;
+}
+
+.gift_cards {
+	background-color: #f56600;
+	height: 5vh;
+	margin: 40px 0;
+	text-align: center;
+}
+
+.gift_cards p {
+	color: #e9edee;
+	font-weight: bold;
+	font-size: 1em;
+	padding: 16px;
+}
+
+.perfect {
+	background-color: #ffffff;
+	margin: 25px 0px;
+	margin: 0 auto;
+	text-align: center;
+	margin: 35px 0;
+}
+
+/* Main */
+.main {
+	margin: 0 30px;
+}
+
+.main a {
+	color: #035a69;
+	text-decoration: none;
+}
+
+.holiday_guides {
+	background-image: url(../images/bg-image.png);
+	background-size: contain;
+	height: 31.2vh;
+	text-align: center;
+}
+
+.holiday_guides p {
+	font-size: 1.3em;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: #e9edee;
+	padding-top: 1em;
+}
+
+.holiday_guides h1 {
+	padding-top: 1.7em;
+}
+
+.perfect p {
+	font-size: 1.3em;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin-block: 25px;
+	margin-left: 51px;
+	padding-top: 20px;
+}
+.perfect p a {
+	font-size: 0.8em;
+	font-weight: 800;
+	margin-left: 20px;
+}
+
+.perfect_img {
+	display: inline-block;
+	width: 23%;
+	overflow: hidden;
+	height: 450px;
+	margin: 0 auto;
+	border-radius: 34px;
+	margin-inline: 8px;
+	margin-bottom: 20px;
+	box-shadow: 4px 2px 15px -3px rgba(0, 0, 0, 0.47);
+	cursor: pointer;
+}
+
+.perfect_img img {
+	width: 100%;
+	height: 100%;
+}
+
+.middle_t {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.img-stesa img {
+	cursor: pointer;
+}
+
+span {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.middle_t span a {
+	font-size: 0.8em;
+	font-weight: 800;
+	margin-left: 20px;
+}
+
+/* Footer */
+
+footer .ft_btn {
+	background-color: #364759;
+	text-align: center;
+	height: 5vh;
+	font-size: 2.2em;
+}
+footer .ft_btn button {
+	background-color: transparent;
+	border-style: none;
+}
+footer .ft_btn button a {
+	color: #f4ffff;
+	text-decoration: underline;
+}
+footer .footer_logo {
+	background-color: #222f3f;
+}
+
+footer .footer_logo {
+	text-align: center;
+	padding-block: 60px;
+}
+footer .footer_logo img {
+	height: 5vh;
+	font-size: 2.2em;
+	cursor: pointer;
+}
