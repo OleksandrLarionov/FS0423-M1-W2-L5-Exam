@@ -145,30 +145,118 @@ while (numericArray.length < 32){
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
+
 let newArray = []
 
-for(let i = 0; i <= cars.length; i++){
-let numero;
+for(let i = 0; i <= charactersArray.length; i++){
+  
+
 switch (charactersArray[i]) {
-  case 'g' :
-    numero = newArray.push(i)
+  case 'a' :
+     newArray.push(0)
   break
 
-  case 'n' :
-    numero = newArray.push(i)
+  case 'b' :
+     newArray.push(1)
   break
 
-  case 'u' :
-    numero = newArray.push(i)
+  case 'c' :
+     newArray.push(2)
   break
   
-  case 'z' :
-    numero = newArray.push(i)
+  case 'd' :
+     newArray.push(3)
   break
 
-  case 'd' :
-    numero = newArray.push(i)
+  case 'e' :
+     newArray.push(4)
   break
+  
+  case 'f' :
+    newArray.push(5)
+ break
+
+ case 'g' :
+    newArray.push(6)
+ break
+
+ case 'h' :
+    newArray.push(7)
+ break
+ 
+ case 'i' :
+    newArray.push(8)
+ break
+
+ case 'j' :
+    newArray.push(9)
+ break
+ 
+ case 'k' :
+  newArray.push(10)
+break
+
+case 'l' :
+  newArray.push(11)
+break
+
+case 'm' :
+  newArray.push(12)
+break
+
+case 'n' :
+  newArray.push(13)
+break
+
+case 'o' :
+  newArray.push(14)
+break
+
+case 'p' :
+  newArray.push(15)
+break
+
+case 'q' :
+  newArray.push(16)
+break
+
+case 'r' :
+  newArray.push(17)
+break
+
+case 's' :
+  newArray.push(18)
+break
+
+case 't' :
+  newArray.push(19)
+break
+
+case 'u' :
+  newArray.push(20)
+break
+
+case 'v' :
+  newArray.push(21)
+break
+
+case 'w' :
+  newArray.push(22)
+break
+
+case 'x' :
+  newArray.push(23)
+break
+
+case 'y' :
+  newArray.push(24)
+break
+
+case 'z' :
+  newArray.push(25)
+break
+
+
 
 
   default:
